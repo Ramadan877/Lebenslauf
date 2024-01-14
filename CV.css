@@ -1,16 +1,20 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container{
   display: flex;
-
+  max-width: 1200px;
+  margin: auto;
 }
+
 .cvleftside{
   flex: 100%;
   padding: 20px;
-  max-width: 265px;
+  width: 30%  
   background-color: rgb(21, 21, 71);
   border-right: gray;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -36,6 +40,7 @@ body{
   padding: 20px;
   background-color: rgb(255, 255, 255);
   margin-top: 0px;
+  width: 65%;
 }
 
 .cvphoto{
